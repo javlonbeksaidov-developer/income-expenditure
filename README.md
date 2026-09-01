@@ -88,54 +88,50 @@ income-expenditure/
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
-### 1️⃣ Clone repository
+## 1️⃣ Clone repository
 
 ```bash
-git clone <https://github.com/javlonbeksaidov-developer/to-do-project-v2.git>
-
-cd to-do-project-v2
+git clone https://github.com/javlonbeksaidov-developer/pharmacy-sales-project.git
 ```
 
-### 2️⃣ Create virtual environment
+## 2️⃣ Project folder
+
+```bash
+cd income-expenditure
+```
+
+## 3️⃣ Create virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-### 3️⃣ Activate virtual environment
+## 4️⃣ Activate virtual environment
 
-**Windows — CMD:**
+### Windows
 
 ```bash
 venv\Scripts\activate
 ```
 
-**Windows — PowerShell:**
+### Linux / MacOS
 
 ```bash
-venv\Scripts\Activate.ps1
+source venv/bin/activate
 ```
 
-**Git Bash:**
-
-```bash
-source venv/Scripts/activate
-```
-
-### 4️⃣ Install dependencies
+## 5️⃣ Install Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## 5️⃣ Run the Project
+## 6️⃣ Run the Project
 
 ```bash
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 
 The API will be available at:
