@@ -93,7 +93,7 @@ income-expenditure/
 ## 1️⃣ Clone repository
 
 ```bash
-git clone https://github.com/javlonbeksaidov-developer/pharmacy-sales-project.git
+git clone https://github.com/javlonbeksaidov-developer/income-expenditure.git
 ```
 
 ## 2️⃣ Project folder
