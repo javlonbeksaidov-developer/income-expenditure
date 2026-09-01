@@ -1,22 +1,20 @@
-# 💰 Income & Expenditure
+<div align="center">
 
-<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Income%20Expenditure&fontSize=55&fontAlignY=35&animation=fadeIn&fontColor=ffffff" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00C853&center=true&vCenter=true&width=700&lines=Income+%26+Expenditure;FastAPI+Backend+Project;Track+Your+Money+%F0%9F%92%B8" alt="Typing SVG" />
+<a href="https://github.com/javlonbeksaidov-developer">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=3776AB&center=true&vCenter=true&width=600&lines=Python+FastAPI+SQLite3;Create+%E2%80%A2+Read+%E2%80%A2+Update+%E2%80%A2+Delete;income+expenditure" alt="Typing SVG" />
+</a>
 
 <br>
 
-<img src="https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-0.115+-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-<img src="https://img.shields.io/badge/SQLAlchemy-2.x-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-Framework-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-ORM-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pydantic-Validation-E92063?style=flat-square&logo=pydantic&logoColor=white" />
 
-<br><br>
-
-<img src="https://img.shields.io/github/stars/javlonbeksaidov-developer/income-expenditure?style=social" />
-<img src="https://img.shields.io/github/forks/javlonbeksaidov-developer/income-expenditure?style=social" />
-
-</p>
+</div>
 
 ---
 
@@ -90,163 +88,114 @@ income-expenditure/
 
 ---
 
-## 🔌 API
+## ⚙️ Installation
 
-### CRUD Operations
-
-|    Method   | Endpoint    | Action               |
-| :---------: | :---------- | :------------------- |
-|   🟢 `GET`  | `/...`      | Ma'lumotlarni olish  |
-|   🟢 `GET`  | `/.../{id}` | Bitta ma'lumot       |
-|  🔵 `POST`  | `/...`      | Yangi ma'lumot       |
-|   🟡 `PUT`  | `/.../{id}` | Ma'lumotni yangilash |
-| 🔴 `DELETE` | `/.../{id}` | Ma'lumotni o‘chirish |
-
-> 📌 Endpointlar loyihaning `routes/` papkasida tashkil qilingan.
-
----
-
-## ⚡ Installation
-
-### 1️⃣ Clone
+### 1️⃣ Clone repository
 
 ```bash
-git clone https://github.com/javlonbeksaidov-developer/income-expenditure.git
+git clone <https://github.com/javlonbeksaidov-developer/to-do-project-v2.git>
 
-cd income-expenditure
+cd to-do-project-v2
 ```
 
-### 2️⃣ Virtual Environment
+### 2️⃣ Create virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-**Windows:**
+### 3️⃣ Activate virtual environment
+
+**Windows — CMD:**
 
 ```bash
 venv\Scripts\activate
 ```
 
-### 3️⃣ Install dependencies
+**Windows — PowerShell:**
+
+```bash
+venv\Scripts\Activate.ps1
+```
+
+**Git Bash:**
+
+```bash
+source venv/Scripts/activate
+```
+
+### 4️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run
+---
+
+## 5️⃣ Run the Project
 
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
----
-
-## 📖 API Documentation
-
-Server ishga tushgandan so‘ng:
-
-```text
-http://127.0.0.1:8000/docs
-```
-
-FastAPI avtomatik **Swagger UI** documentation yaratadi.
-
-```text
-http://127.0.0.1:8000/redoc
-```
-
-Qo‘shimcha **ReDoc** documentation.
-
----
-
-## 🔄 CRUD Flow
-
-```text
-        POST
-         │
-         ▼
-   ┌─────────────┐
-   │   CREATE    │
-   └──────┬──────┘
-          │
-          ▼
-   ┌─────────────┐
-   │   DATABASE  │
-   └──────┬──────┘
-          │
-     ┌────┴────┐
-     ▼         ▼
-   GET        PUT
-     │         │
-     ▼         ▼
-   READ      UPDATE
-               │
-               ▼
-            DELETE
-```
-
----
-
-## 🎯 Project Goals
-
-* ✅ FastAPI bilan REST API yaratish
-* ✅ SQLAlchemy ORM bilan ishlash
-* ✅ SQLite database bilan ishlash
-* ✅ CRUD operatsiyalarini amalda qo‘llash
-* ✅ Backend architecture'ni tushunish
-* ✅ API documentation bilan ishlash
-
----
-
-## 🧪 Development
-
-Loyihani development rejimida ishga tushirish:
-
-```bash
-uvicorn main:app --reload
-```
-
-Server:
+The API will be available at:
 
 ```text
 http://127.0.0.1:8000
 ```
 
-Swagger:
+---
+
+## 📚 API Documentation
+
+FastAPI automatically provides interactive API documentation.
+
+### Swagger UI
 
 ```text
 http://127.0.0.1:8000/docs
 ```
 
----
+### ReDoc
 
-## 👨‍💻 Author
+```text
+http://127.0.0.1:8000/redoc
+```
 
-<p align="center">
-
-<b>Javlonbek Saidov</b>
-
-<br><br>
-
-<a href="https://github.com/javlonbeksaidov-developer">
-<img src="https://img.shields.io/badge/GitHub-Javlonbek%20Saidov-181717?style=for-the-badge&logo=github" />
-</a>
-
-<a href="https://www.linkedin.com/in/javlon-saidov-566572399/">
-<img src="https://img.shields.io/badge/LinkedIn-Javlonbek%20Saidov-0A66C2?style=for-the-badge&logo=linkedin" />
-</a>
-
-</p>
+You can test all CRUD operations directly from Swagger UI.
 
 ---
 
-<p align="center">
+<div align="center">
 
-⭐ **If you like this project, don't forget to give it a star!**
+# 👨‍💻 Author
+
+<table align="center">
+<tr>
+<td align="center" width="220">
+
+<img src="https://github.com/javlonbeksaidov-developer.png" width="150" height="150" style="border-radius:50%;" />
+
+</td>
+
+<td align="center">
+
+<h3>SOFTWARE ENGINEER</h3>
+
+<h3>Connect with me</h3>
+
+<p align="center"><a href="https://t.me/saidov_1701"><img src="https://img.icons8.com/fluency/64/telegram-app.png" width="45" alt="Telegram"/></a>&nbsp;&nbsp;&nbsp;<a href="https://instagram.com/#"><img src="https://img.icons8.com/fluency/64/instagram-new.png" width="45" alt="Instagram"/></a>&nbsp;&nbsp;&nbsp;<a href="https://facebook.com/javlonbeksaidov.developer"><img src="https://img.icons8.com/fluency/64/facebook-new.png" width="45" alt="Facebook"/></a>&nbsp;&nbsp;&nbsp;<a href="https://youtube.com/@JavlonbekSaidov-Developer"><img src="https://img.icons8.com/fluency/64/youtube-play.png" width="45" alt="YouTube"/></a>&nbsp;&nbsp;&nbsp;<a href="mailto:javlonbeksaidov09@gmail.com"><img src="https://img.icons8.com/fluency/64/gmail-new.png" width="45" alt="Gmail"/></a></p>
+
+</td>
+</tr>
+</table>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=1000&center=true&vCenter=true&width=650&lines=Javlonbek+Saidov+Alijon+o%27g%27li;Python+Backend+Developer" alt="Typing SVG" />
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+<strong>⭐ If you like this project, don't forget to give it a star!</strong>
 
-</p>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" width="100%"/>
